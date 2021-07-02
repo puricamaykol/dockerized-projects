@@ -1,0 +1,17 @@
+{
+  "name": "node-hello-world",
+  "version": "1.0.0",
+  "description": "NodeJs express app. It will responde \"hello world\" to any http request",
+  "main": "index.js",
+  "repository": "https://github.com/puricamaykol/dockerized-projects/node-hello-world",
+  "author": "Maykol Purica",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
